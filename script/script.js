@@ -1,0 +1,19 @@
+var a;
+fn=function(){
+	console.log(a);
+	if(a==0){
+		st.style.background="#B85F5F";
+		po.style.background="";
+	}else{
+		po.style.background="#B85F5F";
+		st.style.background="";
+	}
+}
+st.onclick=function(){
+	a=0;
+	fn();
+}
+po.onclick=function(){
+	a=1;
+	fn();
+}
