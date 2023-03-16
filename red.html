@@ -1,0 +1,45 @@
+<html>
+	<head>
+		 <meta charset="utf-8">
+		<title>ICRIS-резюме</title>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+		<script src="script/script.js" defer></script>
+		<link rel="stylesheet" href = "style/style.css">
+		<link rel="shortcut icon" href="img\logo.png" type="image/x-icon">
+	</head>
+	<body>
+		<form action="LK.php"><button class="invis"><img src="img/5.png" width="69px" height="69px"></button></form>
+		<div class="name"><p class="p1"></p></div>
+		<div class="inf2">
+			<form action="cred.php" method="post">
+				<div class="resum"><p class="ap2">Моё резюме:</p></div>
+				<div class="ad">
+					<p class="ap3">ФИО:</p>
+					<input class="apa" name="name">
+				</div>
+				<div class="ad">
+					<p class="ap3">Контактные данные::</p>
+					<input class="apa" name="email">
+				</div>
+				<div class="ad">
+					<p class="ap3">Уровень образования:</p>
+					<input class="apa" name="obr">
+				</div>
+				<div class="ad">
+					<p class="ap3">Кол-во баллов за ОГЭ:</p>
+					<input class="apa" name="oge">
+				</div>
+				<div class="ad">
+					<p class="ap3">Кол-во баллов за ЕГЭ:</p>
+					<input class="apa" name="ege">
+				</div>
+				<div class="ad">
+					<p class="ap3">Навыки:</p>
+					<input class="apa" name="nav">
+				</div>
+				<button name="save" class="save">Сохранить</button>
+			</form>
+			<form action="LK.php"><button class="cancel">Отмена</button></form>
+		</div>
+	</body>
+</html>

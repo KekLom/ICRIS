@@ -2,11 +2,12 @@
 body{
 	margin:0px;
 	font-family:"Comfortaa";
+	background:#878787;
 }
 .q1{
 	position:absolute;
 	width:800px;
-	top:320px;
+	top:360px;
 	left:50%;
 	margin-left:-400px;
 }
@@ -31,10 +32,16 @@ body{
 	margin-top:125px;
 }
 .a1{
-	/* position:absolute; */
+	position:absolute;
 	font-size:48px;
 	margin-top:179px;
 	text-align:center;
+	width: 800px;
+	height: 77px;
+	left:50%;
+	margin-left:-400px;
+	background: #D9D9D9;
+	border-radius: 50px;
 }
 .a2{
 	/* position:absolute; */
@@ -72,7 +79,6 @@ body{
 	height: 69px;
 	left: 7px;
 	top: 8px;
-	background:black;
 }
 .name{
 	position: absolute;
@@ -93,6 +99,10 @@ body{
 	font-size: 32px;
 	/* align-items: center; */
 	text-align: center;
+}
+.invis{
+	background:#d9d9d900;
+	border:0px solid #d9d9d900;
 }
 .gorod{
 	position: absolute;
@@ -157,7 +167,6 @@ body{
 }
 .polos{
 	margin-left:14px;
-	background:black;
 	width: 51.52px;
 	height: 42px;
 	margin-top:9px;
@@ -308,7 +317,7 @@ body{
 .zapis:active{
 	background:#a39f9f;
 }
-.inf{
+.inf, .inf2{
 	position: absolute;
 	width: 724px;
 	height: 819px;
@@ -319,11 +328,27 @@ body{
 	border: 3px solid #000000;
 	border-radius: 50px;
 }
+.inf2{
+	margin-left:-362px;
+}
+.apa{
+	margin-left:160px;
+	height:50px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 36px;
+	align-items: center;
+	text-align: center;
+	font-family:"Comfortaa";
+	margin-top:12px;
+	
+}
 .knops{
 	position:absolute;
 	margin-left:133px;
-	margin-top:322px;
+	margin-top:222px;
 	left:50%;
+	width:450px;
 }
 .knop{
 	width: 449px;
@@ -342,7 +367,7 @@ body{
 .contorl1, .contorl2{
 	font-family:"Comfortaa";
 }
-.ap, .ap2{
+.ap, .ap2, .ap3{
 	height:0px;
 	font-weight: 700;
 	font-size: 32px;
@@ -355,6 +380,28 @@ body{
 .ap{
 	margin-top:0px;
 	font-family:"Comfortaa";
+}
+.ap3{
+	margin-top:-55px;
+}
+.save, .cancel{
+	width: 306px;
+	height: 59px;
+	margin-left:30px;
+	font-family:"Comfortaa";
+	margin-top:35px;
+	background: #D9D9D9;
+	border: 3px solid #000000;
+	border-radius: 50px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 36px;
+	align-items: center;
+	text-align: center;
+}
+.cancel{
+	margin-left:400px;
+	margin-top:-59px;
 }
 .resum{
 	width: 724px;
@@ -393,7 +440,7 @@ body{
 	align-items: center;
 }
 .kont2{
-	margin-top:640px;
+	margin-top:838px;
 }
 .kont3{
 	margin-top:1050px;
@@ -437,4 +484,27 @@ body{
 .reit{
 	width:20px;
 	margin-left:120px;
+}
+.j1, .j2{
+	position:absolute;
+	width:37px;
+	height:39px;
+	left:145px;
+}
+.j1{
+	top:20px;
+}
+.j2{
+	top:90px;
+}
+.logo{
+	position: absolute;
+	width: 800px;
+	height: 242px;
+	left: 50%;
+	top: 91px;
+	margin-left:-400px;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+	border-radius: 50px;
 }
